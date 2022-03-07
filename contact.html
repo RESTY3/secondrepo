@@ -3,12 +3,44 @@
     
     <head>
         <title>Tourism in Uganda- Assignment 2</title>
-    
+    <style>
+        /* selector {rule:value;}*/
+        /*
+        -element/tag selector
+        -id selector '#'
+        -class selector '.'
+        -attribute selector
+        */
+         body{
+             margin: 0;
+             background: rgb(63, 63, 85);
+             color: #f2f2f2;
+         }
+         p {
+             margin-left: 5px;
+         }
+        #first{
+            /*color:rgb(10%,20%,40%);*/
+            background-color:rgba(30,23,57,.4);
+            color:#fff;
+            font-size: 16px;
+            padding: 20px;
+        }
+        p.second {
+            width:50%;
+            float:left;
+
+        }
+        span{
+            
+            padding: 50px;
+        }
+    </style>
     </head>
     <body>
         <header>
             <nav>
-                <ul>
+                <ul type="square">
                <li><a href="./index.html">Home</a></li>
                 <li><a href="mailto:restynassaka3@gmail.com">Contact</a></li>
                 <li><a href="./about.html" target="_blank">About</a></li>
@@ -19,8 +51,9 @@
                 
                  </nav>
         </header>
-        <h3>Tourism sites</h3>
-        <ul type="disc">
+        <h3 style ="color:blueviolet; font-size: 18px;"> Tourism sites</h3>
+        <!--<h3 style ="color:blueviolet; font-size: 18px;"> Tourism sites</h3> inline--> 
+        <ul id="men-ul"  type="disc">
 <li>Rwenzori Mountains. Forest, Hiking Trail, Natural Feature</li>
 <li>Bwindi Impenetrable National Park. Forest, Hiking Trail, Natural Feature, Park</li>
 <li>Kampala City. ...</li>
@@ -40,7 +73,9 @@
         <h6>I Am A CONTACT PAGE</h6>
 
 
-        <p style="color:blueviolet" >Tourism in Uganda is focused on Uganda's landscape and 
+        <p id="first" >
+            <span>Sample Heading One</span><br>
+            Tourism in Uganda is focused on Uganda's landscape and 
             wildlife. It is a major driver of employment, investment and foreign exchange, 
             contributing 4.9 trillion Ugandan shillings (US$1.88 billion or €1.4 billion as 
             of August 2013) to Uganda's GDP in the financial year 2012–2013.[1]
@@ -54,6 +89,15 @@
               boat riding, waterfalls etc.
             
             </p>
+            <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempora ratione mollitia odit at necessitatibus pariatur 
+                unde id quaerat voluptate. Laudantium dolore nisi magnam 
+                voluptates soluta totam, ea rem maiores, voluptas dolor, sed animi natus
+                 placeat officiis iusto hic illum eaque corporis cupiditate cumque nihil 
+                 sequi nobis! Ad consequuntur reiciendis, dignissimos rerum eos blanditiis! 
+                 Tempore repudiandae vel, doloremque fuga, delectus quia similique quaerat quo, 
+                 nam harum velit culpa optio eos aliquam consequatur perspiciatis eius aut quasi 
+                 temporibus esse labore alias nisi dignissimos inventore! Quasi, quo dignissimos.</p>
         
              
 
